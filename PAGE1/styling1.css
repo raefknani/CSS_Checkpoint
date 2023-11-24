@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+li{
+    display: inline;
+}
+#contacts ,#projects ,#about{
+    float: right;
+}
+footer .Part_3{
+    background-color: #7fb5aa;
+    margin: 0;
+    padding: 0;
+}
+.Dis_By{
+    float: right;
+}
+.Contact_Me{
+    float: left;
+}
+section,header{
+    background-color: #7fb5aa;
+}
+section{
+    min-height: 500px;
+}
+footer{
+    background-color: #2c477a;
+    min-height: 200px;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+header{
+    padding: 20px;
+}
+#SCALING{
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+.img_box_1{
+    margin-top: 80px;
+   
+}
+#conactME{
+    padding: 20px;
+}
+
+#html1,#css1,#js1,#boostrap1{
+    margin: 20px;
+    
+}
+.img_box_2{
+    margin-top: 100px;
+}
+#underCase{
+    margin-bottom: 0px;
+    margin-top: 100px;
+    padding: 20px;
+}
+.prebox{
+     padding: 40px;
+}
+section{
+    text-align: center;
+}
+#SCALING:hover{
+    transform: scale(1.4);
+    transition: 0.5s;
+}
+#ROTATE:hover{
+    transform: rotate(360deg);
+    transition: 0.5s;
+}
+#ROTATE{
+    margin-right: 40px;
+    
+}
+#underCase{
+    color: white;
+}
+.prebox{
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+#about,#about,#projects,#contacts{
+    margin: 20px;
+    margin-top: auto;
+}
+#contacts:hover{
+    color: white;
+}
+#projects:hover{
+    color: white;
+}
+#about:hover{
+    color: white;
+}

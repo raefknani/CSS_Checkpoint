@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins";
+}
+li{
+    display: inline;
+}
+#contacts ,#projects ,#about{
+    float: right;
+}
+footer .Part_3{
+    background-color: #7fb5aa;
+    margin: 0;
+    padding: 0;
+}
+.Dis_By{
+    float: right;
+}
+.Contact_Me{
+    float: left;
+}
+section,header{
+    padding: 50px;
+}
+
+footer{
+    background-color: #2c477a;
+    min-height: 200px;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+header{
+    padding: 20px;
+}
+#SCALING{
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+.img_box_1{
+    margin-top: 80px;
+   
+}
+#conactME{
+    padding: 20px;
+}
+
+#html1,#css1,#js1,#boostrap1{
+    margin: 20px;
+    
+}
+.img_box_2{
+    margin-top: 100px;
+}
+#underCase{
+    margin-bottom: 0px;
+    margin-top: 100px;
+    padding: 20px;
+}
+.prebox{
+     padding: 40px;
+}
+
+#SCALING:hover{
+    transform: scale(1.4);
+    transition: 0.5s;
+}
+#ROTATE:hover{
+    transform: rotate(360deg);
+    transition: 0.5s;
+}
+#ROTATE{
+    margin-right: 40px;
+    
+}
+#underCase{
+    color: white;
+}
+.prebox{
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: white ;
+}
+#about,#about,#projects,#contacts{
+    margin: 20px;
+    margin-top: auto;
+}
+#contacts:hover{
+    color: white;
+}
+#projects:hover{
+    color: white;
+}
+#about:hover{
+    color: white;
+}
+header{
+    background-color:#2c477a ;
+}
+.obj_pic{
+    background-color:#a8dbed ;
+    width: 300px;
+    height: 500px;
+    /* margin-left: 60px; */
+    /* margin-right: 60px; */
+    border-radius:20px ;
+    overflow: hidden;
+    margin: 30px;
+    
+}
+.Section{
+    width: fit-content;
+    padding-top:20px ;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color:#d9faf7;
+}
+section {
+    /* display: flex;
+    justify-content: space-between;
+    padding-right: 700px; */
+    
+    
+}
+p{
+    margin: 10px;
+}
